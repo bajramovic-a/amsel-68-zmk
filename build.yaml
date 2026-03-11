@@ -16,6 +16,8 @@
 #     artifact-name: corne_left_with_studio
 #
 ---
-
-board: [ "nice_nano" ]
-shield: [ "amsel_68" ]
+include:
+  - board: nice_nano
+    shield: amsel_68
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
