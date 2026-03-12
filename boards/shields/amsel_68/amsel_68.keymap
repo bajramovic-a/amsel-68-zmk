@@ -25,8 +25,8 @@
             display-name = "cfg"; //layer is only for config options
             bindings = <
                 &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans       &trans       &trans  &trans         &trans
-                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans       &trans       &trans  &trans         &trans
-                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans       &trans       &trans  &studio_unlock &trans
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &bt BT_NXT &bt BT_PRV     &trans  &trans         &trans
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &bt BT_CLR   &trans       &trans  &studio_unlock &trans
                 &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans       &trans       &trans  &bootloader    &trans
                 &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans       &trans       &trans  &trans         &trans
             >;
