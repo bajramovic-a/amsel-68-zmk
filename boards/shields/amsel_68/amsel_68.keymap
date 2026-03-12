@@ -17,20 +17,20 @@
                 &kp ESC     &kp Q    &kp W    &kp E     &kp R    &kp T     &kp F5     &kp PG_UP    &kp Y   &kp U  &kp I      &kp O    &kp P          &kp MINUS
                 &kp LSHIFT  &kp A    &kp S    &lt 2 D   &kp F    &kp G     &kp TAB    &kp PG_DN    &kp H   &kp J  &kp K      &kp L    &kp SEMI       &mt RSHIFT SINGLE_QUOTE
                 &kp LCTRL   &kp Z    &kp X    &kp C     &kp V    &kp B     &kp DEL    &kp F10      &kp N   &kp M  &kp COMMA  &kp DOT  &kp SLASH      &kp N3
-                &kp N4      &kp LWIN &kp LEFT &kp RIGHT &kp LALT &kp SPACE &kp BSPC   &kp RCTRL    &kp RET &mo 2  &kp DOWN   &kp UP   &mo 1          &bootloader
+                &kp LC(TAB) &kp LWIN &kp LEFT &kp RIGHT &kp LALT &kp SPACE &kp BSPC   &kp RCTRL    &kp RET &mo 2  &kp DOWN   &kp UP   &mo 1          &kp LA(TAB)
             >;
         };
 
-        cfg_layer {
-            display-name = "cfg"; //layer is only for config options
-            bindings = <
-                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans       &trans       &trans  &trans         &trans
-                &trans &trans &trans &trans &trans &trans &trans &trans &trans &bt BT_SEL 0 &bt BT_SEL 1 &trans  &trans         &trans
-                &trans &trans &trans &trans &trans &trans &trans &trans &trans &bt BT_CLR   &trans       &trans  &studio_unlock &trans
-                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans       &trans       &trans  &bootloader    &trans
-                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans       &trans       &trans  &trans         &trans
-            >;
-        };
+        // cfg_layer {
+        //     display-name = "cfg"; //layer is only for config options
+        //     bindings = <
+        //         &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans       &trans       &trans  &trans         &trans
+        //         &trans &trans &trans &trans &trans &trans &trans &trans &trans &bt BT_SEL 0 &bt BT_SEL 1 &trans  &trans         &trans
+        //         &trans &trans &trans &trans &trans &trans &trans &trans &trans &bt BT_CLR   &trans       &trans  &studio_unlock &trans
+        //         &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans       &trans       &trans  &bootloader    &trans
+        //         &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans       &trans       &trans  &trans         &trans
+        //     >;
+        // };
 
         // sym_layer {
         //     display-name = "sym"; //layer is only for symbol options
