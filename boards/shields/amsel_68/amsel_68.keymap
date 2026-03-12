@@ -25,12 +25,23 @@
             display-name = "cfg"; //layer is only for config options
             bindings = <
                 &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans       &trans       &trans  &trans         &trans
-                &trans &trans &trans &trans &trans &trans &trans &trans &trans &bt BT_SEL 0 &bt BT_SEL 1 &trans  &trans         &trans
-                &trans &trans &trans &trans &trans &trans &trans &trans &trans &bt BT_CLR   &trans       &trans  &studio_unlock &trans
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans       &trans       &trans  &trans         &trans
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans       &trans       &trans  &studio_unlock &trans
                 &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans       &trans       &trans  &bootloader    &trans
                 &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans       &trans       &trans  &trans         &trans
             >;
         };
+
+        // cfg_layer {
+        //     display-name = "cfg"; //layer is only for config options
+        //     bindings = <
+        //         &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans       &trans       &trans  &trans         &trans
+        //         &trans &trans &trans &trans &trans &trans &trans &trans &trans &bt BT_SEL 0 &bt BT_SEL 1 &trans  &trans         &trans
+        //         &trans &trans &trans &trans &trans &trans &trans &trans &trans &bt BT_CLR   &trans       &trans  &studio_unlock &trans
+        //         &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans       &trans       &trans  &bootloader    &trans
+        //         &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans       &trans       &trans  &trans         &trans
+        //     >;
+        // };
 
         // sym_layer {
         //     display-name = "sym"; //layer is only for symbol options
