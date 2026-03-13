@@ -34,28 +34,28 @@
             >;
         };
 
-        d_layer {
-            display-name = "d-home-row"; //layer is for d-home-row-mod
-            bindings = <
-                &trans &trans &trans &trans &trans &trans &trans    &trans &trans    &trans     &trans         &trans           &trans    &trans
-                &trans &trans &trans &trans &trans &trans &trans    &trans &kb EXCL  &kb DOLLAR &kb LEFT_BRACE &kb RIGHT_BRACE  &kb EQUAL &trans
-                &trans &trans &trans &trans &trans &trans &trans    &trans &kb CARET &kb AMPS   &kb LPAR       &kb RPAR         &kb SEMI  &trans
-                &trans &trans &trans &trans &trans &trans &trans    &trans &kb PLUS  &kb MINUS  &kb LBKT       &kb RBKT         &kb BSLH  &trans
-                &trans &trans &trans &trans &trans &trans &trans    &trans &trans    &trans     &trans         &trans           &trans    &trans
-            >;
-        };
-
-
-        // fn_layer {
-        //     display-name = "fn"; //layer is only for function options
+        // d_layer {
+        //     display-name = "d-home-row"; //layer is for d-home-row-mod
         //     bindings = <
-        //         &trans &kb F1    &kb F2    &kb F3 &kb F4 &kb F5 &trans   &trans &kb F6 &kb F7    &kb F8 &kb F9    &kb F10 &kb F11 
-        //         &trans &trans    &trans    &trans &trans &trans &trans   &trans &trans &kb RA(Y) &trans &kb RA(P) &trans  &kb F12 
-        //         &trans &kb RA(Q) &kb RA(S) &trans &trans &trans &trans   &trans &trans &trans    &trans &trans    &trans  &trans
-        //         &trans &trans    &trans    &trans &trans &trans &trans   &trans &trans &trans    &trans &trans    &trans  &trans
-        //         &trans &trans    &trans    &trans &trans &trans &trans   &trans &trans &trans    &trans &trans    &trans  &trans
+        //         &trans &trans &trans &trans &trans &trans &trans    &trans &trans    &trans     &trans         &trans           &trans    &trans
+        //         &trans &trans &trans &trans &trans &trans &trans    &trans &kb EXCL  &kb DOLLAR &kb LEFT_BRACE &kb RIGHT_BRACE  &kb EQUAL &trans
+        //         &trans &trans &trans &trans &trans &trans &trans    &trans &kb CARET &kb AMPS   &kb LPAR       &kb RPAR         &kb SEMI  &trans
+        //         &trans &trans &trans &trans &trans &trans &trans    &trans &kb PLUS  &kb MINUS  &kb LBKT       &kb RBKT         &kb BSLH  &trans
+        //         &trans &trans &trans &trans &trans &trans &trans    &trans &trans    &trans     &trans         &trans           &trans    &trans
         //     >;
         // };
+
+
+        fn_layer {
+            display-name = "fn"; //layer is only for function options
+            bindings = <
+                &trans &kb F1    &kb F2    &kb F3 &kb F4 &kb F5 &trans   &trans &kb F6 &kb F7    &kb F8 &kb F9    &kb F10 &kb F11 
+                &trans &trans    &trans    &trans &trans &trans &trans   &trans &trans &kb RA(Y) &trans &kb RA(P) &trans  &kb F12 
+                &trans &kb RA(Q) &kb RA(S) &trans &trans &trans &trans   &trans &trans &trans    &trans &trans    &trans  &trans
+                &trans &trans    &trans    &trans &trans &trans &trans   &trans &trans &trans    &trans &trans    &trans  &trans
+                &trans &trans    &trans    &trans &trans &trans &trans   &trans &trans &trans    &trans &trans    &trans  &trans
+            >;
+        };
 
         extra1 {
             status = "reserved";
