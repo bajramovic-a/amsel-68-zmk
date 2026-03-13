@@ -34,16 +34,16 @@
             >;
         };
 
-        // d_layer {
-        //     display-name = "d-home-row"; //layer is for d-home-row-mod
-        //     bindings = <
-        //         &trans &trans &trans &trans &trans &trans &trans    &trans &trans    &trans     &trans         &trans           &trans    &trans
-        //         &trans &trans &trans &trans &trans &trans &trans    &trans &kb EXCL  &kb DOLLAR &kb LEFT_BRACE &kb RIGHT_BRACE  &kb EQUAL &trans
-        //         &trans &trans &trans &trans &trans &trans &trans    &trans &kb CARET &kb AMPS   &kb LPAR       &kb RPAR         &kb SEMI  &trans
-        //         &trans &trans &trans &trans &trans &trans &trans    &trans &kb PLUS  &kb MINUS  &kb LBKT       &kb RBKT         &kb BSLH  &trans
-        //         &trans &trans &trans &trans &trans &trans &trans    &trans &trans    &trans     &trans         &trans           &trans    &trans
-        //     >;
-        // };
+        d_layer {
+            display-name = "d-home-row"; //layer is for d-home-row-mod
+            bindings = <
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans    &trans     &trans         &trans           &trans    &trans
+                &trans &trans &trans &trans &trans &trans &trans &trans &kb EXCL  &kb DOLLAR &kb LEFT_BRACE &kb RIGHT_BRACE  &kb EQUAL &trans
+                &trans &trans &trans &trans &trans &trans &trans &trans &kb CARET &kb AMPS   &kb LPAR       &kb RPAR         &kb SEMI  &trans
+                &trans &trans &trans &trans &trans &trans &trans &trans &kb PLUS  &kb MINUS  &kb LBKT       &kb RBKT         &kb BSLH  &trans
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans    &trans     &trans         &trans           &trans    &trans
+            >;
+        };
 
 
         // fn_layer {
