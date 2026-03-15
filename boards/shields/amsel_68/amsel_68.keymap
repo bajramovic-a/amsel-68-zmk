@@ -17,7 +17,7 @@
                 &kp TAB     &kp N1   &kp N2   &kp N3    &kp N4   &kp N5    &none      &none        &kp N6  &kp N7 &kp N8     &kp N9   &kp N0         &kp GRAVE
                 &kp ESC     &kp Q    &kp W    &kp E     &kp R    &kp T     &kp F5     &kp PG_UP    &kp Y   &kp U  &kp I      &kp O    &kp P          &kp MINUS
                 &kp LSHIFT  &kp A    &kp S    &lt 2 D   &kp F    &kp G     &kp TAB    &kp PG_DN    &kp H   &kp J  &kp K      &kp L    &kp SEMI       &mt RSHIFT SINGLE_QUOTE
-                &kp LCTRL   &kp Z    &kp X    &kp C     &kp V    &kp B     &kp DEL    &kp F10      &kp N   &kp M  &kp COMMA  &kp DOT  &kp SLASH      &kp N3
+                &kp LCTRL   &kp Z    &kp X    &kp C     &kp V    &kp B     &kp DEL    &kp F10      &kp N   &kp M  &kp COMMA  &kp DOT  &kp SLASH      &kp LC(TAB)
                 &kp N0      &kp LWIN &kp LEFT &kp RIGHT &kp LALT &kp SPACE &kp BSPC   &kp RCTRL    &kp RET &mo 3  &kp DOWN   &kp UP   &mo 1          &kp LA(TAB)
             >;
         };
@@ -49,11 +49,11 @@
         fn_layer {
             display-name = "fn"; //layer is only for function options
             bindings = <
-                &trans &kp F1    &kp F2    &kp F3 &kp F4 &kp F5 &trans   &trans &kp F6 &kp F7    &kp F8 &kp F9    &kp F10 &kp F11 
-                &trans &trans    &trans    &trans &trans &trans &trans   &trans &trans &kp RA(Y) &trans &kp RA(P) &trans  &kp F12 
-                &trans &kp RA(Q) &kp RA(S) &trans &trans &trans &trans   &trans &trans &trans    &trans &trans    &trans  &trans
-                &trans &trans    &trans    &trans &trans &trans &trans   &trans &trans &trans    &trans &trans    &trans  &trans
-                &trans &trans    &trans    &trans &trans &trans &trans   &trans &trans &trans    &trans &trans    &trans  &trans
+                &trans &kp F1    &kp F2    &kp F3 &kp F4 &kp F5 &trans  &trans       &kp F6 &kp F7    &kp F8    &kp F9       &kp F10 &kp F11 
+                &trans &trans    &trans    &trans &trans &trans &trans  &bp C_VOL_UP &trans &kp RA(Y) &trans    &kp RA(P)    &trans  &kp F12 
+                &trans &kp RA(Q) &kp RA(S) &trans &trans &trans &trans  &bp C_VOL_DN &trans &trans    &trans    &trans       &trans  &trans
+                &trans &trans    &trans    &trans &trans &trans &trans  &bp C_MUTE   &trans &trans    &trans    &trans       &trans  &trans
+                &trans &trans    &trans    &trans &trans &trans &trans  &trans       &trans &trans    &kp PG_DN &kp PG_UP    &trans  &trans
             >;
         };
 
