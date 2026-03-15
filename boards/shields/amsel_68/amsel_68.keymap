@@ -34,28 +34,28 @@
             >;
         };
 
-        d_layer {
-            display-name = "d-home-row"; //layer is for d-home-row-mod
-            bindings = <
-                &trans &trans &trans &trans &trans &trans &trans &trans &trans    &trans     &trans         &trans           &trans    &trans
-                &trans &trans &trans &trans &trans &trans &trans &trans &kp EXCL  &kp DOLLAR &kp LEFT_BRACE &kp RIGHT_BRACE  &kp EQUAL &trans
-                &trans &trans &trans &trans &trans &trans &trans &trans &kp CARET &kp AMPS   &kp LPAR       &kp RPAR         &kp SEMI  &trans
-                &trans &trans &trans &trans &trans &trans &trans &trans &kp PLUS  &kp MINUS  &kp LBKT       &kp RBKT         &kp BSLH  &trans
-                &trans &trans &trans &trans &trans &trans &trans &trans &trans    &trans     &trans         &trans           &trans    &trans
-            >;
-        };
+        // d_layer {
+        //     display-name = "d-home-row"; //layer is for d-home-row-mod
+        //     bindings = <
+        //         &trans &trans &trans &trans &trans &trans &trans &trans &trans    &trans     &trans         &trans           &trans    &trans
+        //         &trans &trans &trans &trans &trans &trans &trans &trans &kp EXCL  &kp DOLLAR &kp LEFT_BRACE &kp RIGHT_BRACE  &kp EQUAL &trans
+        //         &trans &trans &trans &trans &trans &trans &trans &trans &kp CARET &kp AMPS   &kp LPAR       &kp RPAR         &kp SEMI  &trans
+        //         &trans &trans &trans &trans &trans &trans &trans &trans &kp PLUS  &kp MINUS  &kp LBKT       &kp RBKT         &kp BSLH  &trans
+        //         &trans &trans &trans &trans &trans &trans &trans &trans &trans    &trans     &trans         &trans           &trans    &trans
+        //     >;
+        // };
 
 
-        fn_layer {
-            display-name = "fn"; //layer is only for function options
-            bindings = <
-                &trans &kp F1    &kp F2    &kp F3 &kp F4 &kp F5 &trans  &trans       &kp F6 &kp F7    &kp F8    &kp F9       &kp F10 &kp F11 
-                &trans &trans    &trans    &trans &trans &trans &trans  &bp C_VOL_UP &trans &kp RA(Y) &trans    &kp RA(P)    &trans  &kp F12 
-                &trans &kp RA(Q) &kp RA(S) &trans &trans &trans &trans  &bp C_VOL_DN &trans &trans    &trans    &trans       &trans  &trans
-                &trans &trans    &trans    &trans &trans &trans &trans  &bp C_MUTE   &trans &trans    &trans    &trans       &trans  &trans
-                &trans &trans    &trans    &trans &trans &trans &trans  &trans       &trans &trans    &kp PG_DN &kp PG_UP    &trans  &trans
-            >;
-        };
+        // fn_layer {
+        //     display-name = "fn"; //layer is only for function options
+        //     bindings = <
+        //         &trans &kp F1    &kp F2    &kp F3 &kp F4 &kp F5 &trans  &trans       &kp F6 &kp F7    &kp F8    &kp F9       &kp F10 &kp F11 
+        //         &trans &trans    &trans    &trans &trans &trans &trans  &bp C_VOL_UP &trans &kp RA(Y) &trans    &kp RA(P)    &trans  &kp F12 
+        //         &trans &kp RA(Q) &kp RA(S) &trans &trans &trans &trans  &bp C_VOL_DN &trans &trans    &trans    &trans       &trans  &trans
+        //         &trans &trans    &trans    &trans &trans &trans &trans  &bp C_MUTE   &trans &trans    &trans    &trans       &trans  &trans
+        //         &trans &trans    &trans    &trans &trans &trans &trans  &trans       &trans &trans    &kp PG_DN &kp PG_UP    &trans  &trans
+        //     >;
+        // };
 
         extra1 {
             status = "reserved";
